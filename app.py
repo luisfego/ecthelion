@@ -16,7 +16,7 @@ def main():
     put_info("""Welcome to the Haas Zoom background generator. \nIf you encounter any problems, shoot me an email to 📧 felipe.gonzalez@berkeley.edu""")
 
     bg_info = input_group('About you...',[
-        input("First name",       name='first_name', placeholder="Peter"), 
+        input("First name",       name='first_name', placeholder="Pete"), 
         input("Last name",        name='last_name',  placeholder="Johnson"), 
         input("Program and year", name='program',    placeholder=f"FTMBA {date.today().year + 1}")
     ])
